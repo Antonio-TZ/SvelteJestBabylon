@@ -5,39 +5,44 @@ Currently a zero code project with just the bare bones instructions of setting u
 npm init svelte@next
 
 # create a new project in my-app
-npm init svelte@next my-app
-Note: the @next is temporary
+npm init svelte@next my-app <BR>
+Note: the @next is temporary <BR>
+ <BR>
+npm init svelte@next sveltekit <BR>
+cd sveltekit/ <BR>
+npm install <BR>
+npm run dev -- --open <BR>
+npm install --save-dev jest ts-jest  <BR>
+            @testing-library/svelte @testing-library/jest-dom svelte-jester  <BR>
+            @types/jest babel-jest @babel/preset-env  <BR>
+ <BR>
+npm install babylonjs plus config  <BR>
+ <BR>
+changes from here: https://daveceddia.com/svelte-typescript-jest/ <BR>
+ <BR>
 
-npm init svelte@next sveltekit
-cd sveltekit/
-npm install
-npm run dev -- --open
-npm install --save-dev jest ts-jest @testing-library/svelte @testing-library/jest-dom svelte-jester @types/jest babel-jest @babel/preset-env 
-npm install babylonjs plus config 
-
-changes from here: https://daveceddia.com/svelte-typescript-jest/
-
-Developing
+# Developing
 Once you've created a project and installed dependencies with npm install (or pnpm install or yarn), start a development server:
 
-npm run dev
+npm run dev <BR>
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
-Look here for inspiration:
+npm run dev -- --open <BR>
+Look here for inspiration: <BR>
+ <BR>
+https://github.com/topics/svelte-components <BR>
+https://svelte.dev/ <BR>
+https://github.com/sveltejs/svelte/issues/2118 <BR>
+https://kit.svelte.dev/docs <BR>
+http://using-babylonjs.com <BR>
+https://doc.babylonjs.com <BR>
+https://forum.babylonjs.com <BR>
+https://github.com/htmlx-org/HTMLx <BR>
 
-https://github.com/topics/svelte-components
-https://svelte.dev/
-https://github.com/sveltejs/svelte/issues/2118
-https://kit.svelte.dev/docs
-http://using-babylonjs.com
-https://doc.babylonjs.com
-https://forum.babylonjs.com
-https://github.com/htmlx-org/HTMLx
 
+# Building
+Before creating a production version of your app, install an adapter for your target environment. Then: 
 
-Building
-Before creating a production version of your app, install an adapter for your target environment. Then:
-
-npm run build
-You can preview the built app with npm run preview, regardless of whether you installed an adapter. This should not be used to serve your app in production.
+npm run build <BR>
+ <BR>
+You can preview the built app with npm run preview, regardless of whether you installed an adapter. This should not be used to serve your app in production. <BR>
