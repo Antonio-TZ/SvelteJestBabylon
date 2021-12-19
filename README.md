@@ -5,18 +5,19 @@ Currently a zero code project with just the bare bones instructions of setting u
 npm init svelte@next
 
 # create a new project in my-app
-npm init svelte@next my-app <BR>
+```npm init svelte@next my-app```
 Note: the @next is temporary <BR>
  <BR>
-npm init svelte@next sveltekit <BR>
-cd sveltekit/ <BR>
-npm install <BR>
-npm run dev -- --open <BR>
-npm install --save-dev jest ts-jest  <BR>
-            @testing-library/svelte @testing-library/jest-dom svelte-jester  <BR>
-            @types/jest babel-jest @babel/preset-env  <BR>
- <BR>
-npm install babylonjs plus config  <BR>
+```npm init svelte@next sveltekit
+cd sveltekit/ 
+npm install 
+npm run dev -- --open 
+npm install --save-dev jest ts-jest  
+            @testing-library/svelte @testing-library/jest-dom svelte-jester  
+            @types/jest babel-jest @babel/preset-env
+
+npm install babylonjs plus config
+```
  <BR>
 changes from here: https://daveceddia.com/svelte-typescript-jest/ <BR>
  <BR>
